@@ -20,10 +20,26 @@ header {
   padding: 0px 15px;
 }
 
-.navbar {
+.navbar-desktop {
   display: flex;
   justify-content: flex-end;
   margin: 10px 5%;
+}
+
+.fa-1x {
+  font-size: 1.5rem;
+}
+.navbar-toggler.toggler-example {
+  cursor: pointer;
+}
+.dark-blue-text {
+  color: #0a38f5;
+}
+
+@media all and (max-width: 500px) {
+  .navbar-desktop {
+    display: none;
+  }
 }
 
 a {

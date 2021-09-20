@@ -61,6 +61,9 @@ img {
 }
 
 @media all and (max-width: 500px) {
+  h1 {
+    font-size: 12pt;
+  }
   .container-fabrica {
     flex-direction: column;
   }
@@ -71,7 +74,10 @@ img {
     width: 100%;
     padding: 10px;
     height: auto;
-    transform: skewX(-10deg);
+    transform: skewX(0deg);
+  }
+  .info {
+    transform: skew(0deg);
   }
   .container-sobre {
     margin-top: 5%;
@@ -79,5 +85,11 @@ img {
     color: white;
     width: 100%;
     padding: 10px;
+  }
+  .image > img {
+    height: 200px;
+  }
+  .image:hover {
+    transform: scale(1);
   }
 }
