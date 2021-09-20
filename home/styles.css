@@ -59,3 +59,9 @@ img {
 .image:hover {
   transform: scale(1.04, 1.04);
 }
+
+@media all and (max-width: 500px) {
+  .container-fabrica {
+    flex-direction: column;
+  }
+}
