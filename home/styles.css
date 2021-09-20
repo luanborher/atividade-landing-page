@@ -51,6 +51,11 @@ img {
   flex-direction: row;
 }
 
-.image {
-  border-radius: 8px;
+.image > img {
+  height: 150px;
+  border: 1px solid #023047;
+}
+
+.image:hover {
+  transform: scale(1.04, 1.04);
 }
