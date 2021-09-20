@@ -1,7 +1,6 @@
 section {
   display: flex;
   justify-content: center;
-  height: 70vh;
   margin-top: 3%;
 }
 
@@ -36,13 +35,22 @@ p {
 
 img {
   width: 100%;
-  height: 100%;
+  height: 111%;
 }
 
 .container-sobre {
   margin-top: 5%;
   background: #f96f14;
-  height: 100vh;
   width: 100%;
   padding: 16px 64px;
+}
+
+.container-fabrica {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+.image {
+  border-radius: 8px;
 }
