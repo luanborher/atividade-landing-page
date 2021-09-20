@@ -64,4 +64,12 @@ img {
   .container-fabrica {
     flex-direction: column;
   }
+  .container-image {
+    display: none;
+  }
+  .container-info {
+    width: 100%;
+    padding: 10px;
+    height: auto;
+  }
 }
