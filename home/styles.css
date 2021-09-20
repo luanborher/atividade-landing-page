@@ -71,5 +71,13 @@ img {
     width: 100%;
     padding: 10px;
     height: auto;
+    transform: skewX(-10deg);
+  }
+  .container-sobre {
+    margin-top: 5%;
+    background: #000000;
+    color: white;
+    width: 100%;
+    padding: 10px;
   }
 }
