@@ -26,20 +26,25 @@ header {
   margin: 10px 5%;
 }
 
-.fa-1x {
-  font-size: 1.5rem;
-}
-.navbar-toggler.toggler-example {
-  cursor: pointer;
-}
-.dark-blue-text {
-  color: #0a38f5;
+#navbar-mobile {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 15px;
+  color: #023047;
+  font-size: 16pt;
 }
 
-@media all and (max-width: 500px) {
-  .navbar-desktop {
-    display: none;
-  }
+button {
+  float: right;
+  background: white;
+  font-size: 20pt;
+  border: 1px solid #ccc;
+}
+
+li {
+  background: rgb(236, 147, 114);
+  border-bottom: 1px solid black;
+  padding: 5px;
 }
 
 a {
@@ -58,4 +63,32 @@ footer {
   border-top: 1px solid #f96f14;
   height: 30vh;
   width: 100%;
+}
+
+.invisivel {
+  display: none;
+}
+
+.invisivel-mobile {
+  display: none;
+}
+
+@media all and (max-width: 500px) {
+  .navbar-desktop {
+    display: none;
+  }
+
+  .fa-1x {
+    font-size: 1.5rem;
+  }
+  .navbar-toggler.toggler-example {
+    cursor: pointer;
+  }
+  .dark-blue-text {
+    color: #0a38f5;
+  }
+
+  .invisivel {
+    display: block;
+  }
 }

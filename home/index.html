@@ -7,7 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="../Style/global.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="home.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
     <title>Home - Motors</title>
 </head>
 
@@ -20,39 +22,24 @@
         <a href="../Contato/">Fale Conosco</a>
     </nav>
     
-    <nav class="navbar navbar-light light-blue lighten-4">
-        <a class="navbar-brand" href="#">Menu</a>
-        
-        <button 
-            class="navbar-toggler toggler-example" 
-            type="button" 
-            data-toggle="collapse" 
-            data-target="#navbarSupportedContent1"
-            aria-controls="navbarSupportedContent1" 
-            aria-expanded="false" 
-            aria-label="Toggle navigation">
-            <span class="dark-blue-text">
-                <i class="fas fa-bars fa-1x"></i>
+    <nav id="navbar-mobile" class="invisivel">
+        <div>Menu</div>
+
+        <button id="btn-menu" onclick="openMenu()">
+            <span>
+                <i class="fas fa-bars"></i>
             </span>
         </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent1">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-            <a class="nav-link" href="../home/">Início <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="#sobre">Quem Somos</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="../Produto/">Produtos</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="../Contato/">Fale Conosco</a>
-            </li>
-        </ul>
-        </div>
     </nav>
+    
+    <!-- Menu responsivo de celular mobile -->
+    <div id="navbar-collapse" class="invisivel-mobile">
+        <li><a href="../home/">Início</a></li>
+        <li><a href="#sobre">Quem somos</a></li>
+        <li><a href="../Produto/">Produtos</a></li>
+        <li><a href="../Contato/">Fale Conosco</a></li>
+    </div>
+    
     <section>
         <div class="container-info">
             <div class="info">
