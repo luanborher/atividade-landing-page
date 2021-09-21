@@ -7,16 +7,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="../Style/global.css">
+    <script src="../script/global.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
     <title>Produto - Motors</title>
 </head>
 
 <body>
     <header>MOTORS</header>
-    <nav>
-        <a href="../home/">Home</a>
+    <nav class="navbar-desktop">
+        <a href="../home/">Início</a>
+        <a href="#sobre">Quem somos</a>
         <a href="../Produto/">Produtos</a>
-        <a href="../Contato/">Contato</a>
+        <a href="../Contato/">Fale Conosco</a>
     </nav>
+    
+    <nav id="navbar-mobile" class="invisivel">
+
+        <button id="btn-menu" onclick="openMenu()">
+            <span>
+                <i class="fas fa-bars"></i>
+            </span>
+        </button>
+    </nav>
+    
+    <!-- Menu responsivo de celular mobile -->
+    <div id="navbar-collapse" class="invisivel-mobile">
+        <a href="../home/"><div id="link">Início</div></a>
+        <a href="#sobre"><div id="link">Quem somos</div></a>
+        <a href="../Produto/"><div id="link">Produtos</div></a>
+        <a href="../Contato/"><div id="link">Fale Conosco</div></a>
+    </div>
 </body>
 
 </html>
