@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="../Style/global.css">
     <script src="home.js"></script>
     <script src="../script/global.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
     <title>Home - Motors</title>
 </head>
@@ -22,24 +21,35 @@
         <a href="../Produto/">Produtos</a>
         <a href="../Contato/">Fale Conosco</a>
     </nav>
-    
-    <nav id="navbar-mobile" class="invisivel">
 
-        <button id="btn-menu" onclick="openMenu()">
-            <span>
-                <i class="fas fa-bars"></i>
-            </span>
-        </button>
-    </nav>
-    
-    <!-- Menu responsivo de celular mobile -->
-    <div id="navbar-collapse" class="invisivel-mobile">
-        <a href="../home/"><div id="link">Início</div></a>
-        <a href="#sobre"><div id="link">Quem somos</div></a>
-        <a href="../Produto/"><div id="link">Produtos</div></a>
-        <a href="../Contato/"><div id="link">Fale Conosco</div></a>
+    <div class="invisivel">
+        <nav id="navbar-mobile" class="invisivel">
+
+            <button id="btn-menu" onclick="openMenu()">
+                <span>
+                    <i class="fas fa-bars"></i>
+                </span>
+            </button>
+        </nav>
+
+        <!-- Menu responsivo de celular mobile -->
+
+        <div id="navbar-collapse" class="invisivel-mobile">
+            <a href="../home/">
+                <div id="link">Início</div>
+            </a>
+            <a href="#sobre">
+                <div id="link">Quem somos</div>
+            </a>
+            <a href="../Produto/">
+                <div id="link">Produtos</div>
+            </a>
+            <a href="../Contato/">
+                <div id="link">Fale Conosco</div>
+            </a>
+        </div>
     </div>
-    
+
     <section>
         <div class="container-info">
             <div class="info">
@@ -83,8 +93,38 @@
                 <div class="image"><img src="../image/fabrica-ms.jpg" alt="" srcset=""></div>
                 <div class="image"><img src="../image/fabrica-rd.jpg" alt="" srcset=""></div>
             </div>
+            <div class="container-infofabrica">
+                <h1>Fábricas</h1>
+                <p>
+                    A BrasilMaujor Motores possui três unidades fabris de grande porte estrategicamente
+                    localizadas no território nacional e em condições de atender com presteza qualquer
+                    demanda do mercado.
+                </p>
+                <h3>Fábrica Rudolf Diesel</h3>
+                <p>
+                    Situa-se no bairro Industrial de Ubatuba na cidade de Porto Real, SC.
+                    Primeira unidade construida, fabrica motores leves médios e grandes.
+                    Número total de funcionários: 1.247.
+                </p>
+                <h3>Fábrica Martim Afonso</h3>
+                <p>
+                    Situa-se no bairro de Catanduva na cidade de Magorá, SP.
+                    Unidade construida em 1971, fabrica motores leves e médios.
+                    Encontra-se em fase de expansão com a construção do módulo para fabricação de motores grandes.
+                    Número total de funcionários: 794.
+                </p>
+                <h3>Fábrica Engenheira Maria Silva</h3>
+                <p>
+                    Situa-se no bairro de Guaxupé na cidade de Cactus, PE.
+                    Unidade construida em 1985, fabrica motores leves.
+                    Número total de funcionários: 278.
+                </p>
+            </div>
         </div>
     </section>
+    <footer>
+        Copyright &copy; 2021 - BrasilMaujor Motores - Site fictício desenvolvimento por alunos
+    </footer>
 </body>
 
 </html>

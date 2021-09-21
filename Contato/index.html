@@ -14,30 +14,44 @@
 </head>
 
 <body>
-    <header>MOTORS</header>
+    <header>BrasilMaujor MOTORES</header>
     <nav class="navbar-desktop">
         <a href="../home/">Início</a>
-        <a href="#sobre">Quem somos</a>
+        <a href="../home/#sobre">Quem somos</a>
         <a href="../Produto/">Produtos</a>
         <a href="../Contato/">Fale Conosco</a>
     </nav>
-    
-    <nav id="navbar-mobile" class="invisivel">
 
-        <button id="btn-menu" onclick="openMenu()">
-            <span>
-                <i class="fas fa-bars"></i>
-            </span>
-        </button>
-    </nav>
-    
-    <!-- Menu responsivo de celular mobile -->
-    <div id="navbar-collapse" class="invisivel-mobile">
-        <a href="../home/"><div id="link">Início</div></a>
-        <a href="#sobre"><div id="link">Quem somos</div></a>
-        <a href="../Produto/"><div id="link">Produtos</div></a>
-        <a href="../Contato/"><div id="link">Fale Conosco</div></a>
+    <div class="invisivel">
+        <nav id="navbar-mobile" class="invisivel">
+
+            <button id="btn-menu" onclick="openMenu()">
+                <span>
+                    <i class="fas fa-bars"></i>
+                </span>
+            </button>
+        </nav>
+
+        <!-- Menu responsivo de celular mobile -->
+
+        <div id="navbar-collapse" class="invisivel-mobile">
+            <a href="../home/">
+                <div id="link">Início</div>
+            </a>
+            <a href="../home/#sobre">
+                <div id="link">Quem somos</div>
+            </a>
+            <a href="../Produto/">
+                <div id="link">Produtos</div>
+            </a>
+            <a href="../Contato/">
+                <div id="link">Fale Conosco</div>
+            </a>
+        </div>
     </div>
+
+
+
 </body>
 
 </html>

@@ -8,36 +8,168 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="../Style/global.css">
     <script src="../script/global.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
     <title>Produto - Motors</title>
 </head>
 
 <body>
-    <header>MOTORS</header>
+    <header>BrasilMaujor MOTORES</header>
     <nav class="navbar-desktop">
         <a href="../home/">Início</a>
-        <a href="#sobre">Quem somos</a>
+        <a href="../home/#sobre">Quem somos</a>
         <a href="../Produto/">Produtos</a>
         <a href="../Contato/">Fale Conosco</a>
     </nav>
-    
-    <nav id="navbar-mobile" class="invisivel">
 
-        <button id="btn-menu" onclick="openMenu()">
-            <span>
-                <i class="fas fa-bars"></i>
-            </span>
-        </button>
-    </nav>
-    
-    <!-- Menu responsivo de celular mobile -->
-    <div id="navbar-collapse" class="invisivel-mobile">
-        <a href="../home/"><div id="link">Início</div></a>
-        <a href="#sobre"><div id="link">Quem somos</div></a>
-        <a href="../Produto/"><div id="link">Produtos</div></a>
-        <a href="../Contato/"><div id="link">Fale Conosco</div></a>
+    <div class="invisivel">
+        <nav id="navbar-mobile" class="invisivel">
+
+            <button id="btn-menu" onclick="openMenu()">
+                <span>
+                    <i class="fas fa-bars"></i>
+                </span>
+            </button>
+        </nav>
+
+        <!-- Menu responsivo de celular mobile -->
+
+        <div id="navbar-collapse" class="invisivel-mobile">
+            <a href="../home/">
+                <div id="link">Início</div>
+            </a>
+            <a href="../home/#sobre">
+                <div id="link">Quem somos</div>
+            </a>
+            <a href="../Produto/">
+                <div id="link">Produtos</div>
+            </a>
+            <a href="../Contato/">
+                <div id="link">Fale Conosco</div>
+            </a>
+        </div>
     </div>
+
+    <section>
+
+        <div class="container-desc-produtos">
+            <h1>Motores leves</h1>
+            <div class="descricao">
+                Até 3.0 litros. Eletrônicos, oferecem excelente performance nas mais diferentes
+                faixas de potência, com elevado torque e baixo custo de manutenção.
+            </div>
+        </div>
+
+        <div class="container-produtos">
+            <div id="card-motors">
+                <img src="../image/motor-ragon-wz.jpg" alt="Modelo Ragon WZ">
+                <div class="sub">
+                    <p>
+                        Modelo Ragon WZ
+                        Cabeçotes individuais com 4 válvulas por cilindro
+                        Uso: veicular
+                    </p>
+                </div>
+            </div>
+            <div id="card-motors">
+                <img src="../image/motor-ragon-ty.jpg" alt="Modelo Ragon TY">
+                <div class="sub">
+                    <p>
+                        Modelo Ragon TY
+                        Cabeçotes individuais com 3 válvulas por cilindro
+                        Uso: veicular
+                    </p>
+                </div>
+            </div>
+            <div id="card-motors">
+                <img src="../image/motor-delta.jpg" alt="Modelo Delta">
+                <div class="sub">
+                    <p>
+                        Modelo Delta
+                        Cabeçotes individuais com 6 válvulas por cilindro
+                        Uso: veicular, marítimo
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-desc-produtos">
+            <h1>Motores Médios</h1>
+            <div class="descricao">
+                Até 6.0 litros. Performance, confiabilidade e durabilidade, com eficiência no consumo de combustível e
+                baixo custo de manutenção.
+            </div>
+        </div>
+
+        <div class="container-produtos">
+            <div id="card-motors">
+                <img src="../image/motor-dyna.jpg" alt="Modelo Dyna">
+                <div class="sub">
+                    <p>
+                        Modelo Dyna
+                        Cabeçotes individuais com 4 válvulas por cilindro
+                        Uso: agrícola
+                    </p>
+                </div>
+            </div>
+            <div id="card-motors">
+                <img src="../image/motor-tork-gu.jpg" alt=" Modelo Tork GU">
+                <div class="sub">
+                    <p>
+                        Modelo Tork GU
+                        Cabeçotes individuais com 4 válvulas por cilindro
+                        Uso: agrícola, industrial
+                    </p>
+                </div>
+            </div>
+            <div id="card-motors">
+                <img src="../image/motor-tork-ja.jpg" alt="Modelo Tork JA">
+                <div class="sub">
+                    <p>
+                        Modelo Tork JA
+                        Cabeçotes individuais com 4 válvulas por cilindro
+                        Uso: industrial
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-desc-produtos">
+            <h1>Motores Grandes</h1>
+            <div class="descricao">
+                Até 9.0 litros. Performance, confiabilidade e durabilidade, com eficiência no consumo de combustível e
+                baixo custo de manutenção.
+            </div>
+        </div>
+
+        <div class="container-produtos">
+            <div id="card-motors">
+                <img src="../image/motor-combo-alfa.jpg" alt="Modelo Combo Alfa">
+                <div class="sub">
+                    <p>
+                        Modelo Combo Alfa
+                        Cabeçotes individuais com 4 válvulas por cilindro
+                        Uso: marítimo
+                    </p>
+                </div>
+            </div>
+            <div id="card-motors">
+                <img src="../image/motor-combo-beta.jpg" alt="Modelo Combo Beta">
+                <div class="sub">
+                    <p>
+                        Modelo Combo Beta
+                        Cabeçotes individuais com 4 válvulas por cilindro
+                        Uso: marítimo
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        Copyright &copy; 2021 - BrasilMaujor Motores - Site fictício desenvolvimento por alunos
+    </footer>
+
 </body>
 
 </html>
