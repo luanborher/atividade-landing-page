@@ -57,6 +57,9 @@ img {
     flex-direction: column;
     width: 95%;
   }
+  .descricao {
+    text-align: center;
+  }
 }
 
 footer {
