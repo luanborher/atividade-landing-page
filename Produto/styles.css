@@ -65,3 +65,20 @@ img {
 footer {
   margin-top: 32px;
 }
+
+#modal-ficha {
+  background: #023047b8;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+.ficha-tecnica {
+  border: 1px solid #023047;
+  border-radius: 4px;
+  background: white;
+  height: 95%;
+  margin: 10px;
+}

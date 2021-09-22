@@ -63,9 +63,11 @@ textarea {
   .contato {
     margin-bottom: 15px;
   }
-  .formmulario {
+  .formulario {
     width: 100%;
     display: flex;
     justify-content: center;
+    border-top: 1px solid #023047;
+    margin-top: 10px;
   }
 }

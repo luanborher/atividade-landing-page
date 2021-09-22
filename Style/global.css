@@ -24,6 +24,10 @@ header {
   padding: 0px 15px;
 }
 
+i {
+  color: #da4410;
+}
+
 .invisivel {
   display: none;
 }
@@ -40,6 +44,7 @@ header {
   padding: 5px 15px;
   color: #023047;
   font-size: 16pt;
+  margin-top: 10px;
 }
 
 button {
@@ -50,9 +55,10 @@ button {
 }
 
 #link {
-  background: rgb(236, 147, 114);
+  background: rgb(250 112 21);
   border-bottom: 1px solid black;
-  padding: 5px;
+  padding: 10px;
+  font-weight: bold;
 }
 
 a {
