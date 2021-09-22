@@ -34,7 +34,7 @@ textarea {
 
 #btn {
   border-radius: 16px;
-  width: 200px;
+  width: 300px;
   align-self: center;
   background: white;
   border: 2px solid #023047;
@@ -57,10 +57,15 @@ textarea {
     display: flex;
     flex-direction: column;
     font-size: 14pt;
-    width: 300px;
+    width: 80%;
     color: #023047;
   }
   .contato {
     margin-bottom: 15px;
+  }
+  .formmulario {
+    width: 100%;
+    display: flex;
+    justify-content: center;
   }
 }
