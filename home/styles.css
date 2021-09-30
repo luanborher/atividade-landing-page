@@ -1,15 +1,18 @@
 section {
   display: flex;
   justify-content: center;
-  margin-top: 3%;
+  margin-top: 3vw;
 }
 
 .container-info {
-  width: 40%;
-  background: #f96f14f1;
+  display: flex;
+  width: 80vh;
+  background: #023047;
   transform: skewX(10deg);
-  padding: 40px;
-  height: 70%;
+  padding: 2vw;
+  height: 50vh;
+  color: white;
+  align-items: center;
 }
 
 .info {
@@ -17,24 +20,25 @@ section {
 }
 
 h1 {
-  padding: 0 10px;
+  font-size: 1.8vw;
+  padding: 0 1vw;
 }
 
 h3 {
-  padding: 0 10px;
+  padding: 0 1.4vw;
 }
 
 p {
-  font-size: 16pt;
+  font-size: 1.5vw;
   text-align: justify;
   line-height: 2;
-  padding: 10px;
+  padding: 1vw;
 }
 
 .container-image {
-  width: 45%;
+  width: 90vh;
   transform: skewX(10deg);
-  margin-top: 3%;
+  margin-top: 3vw;
 }
 
 img {
