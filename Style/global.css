@@ -16,7 +16,6 @@ header {
     url("../image/bg-topo.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100vw;
   box-shadow: 0px 0.01em 0.2em #023047;
   display: flex;
   align-items: center;
