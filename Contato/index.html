@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="../Style/global.css">
     <script src="../script/global.js"></script>
+    <script src="script.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
     <title>Contato - Motors</title>
@@ -54,22 +55,22 @@
         <div class="container-contato">
             <div class="formulario">
                 <form>
-                    <label for="fname">Nome: *</label>
-                    <input type="text" id="fname" name="fname">
+                    <label for="nome">Nome: <b style="color: red">*</b></label>
+                    <input type="text" id="nome" name="nome">
 
-                    <label for="lname">E-mail: *</label>
-                    <input type="text" id="lname" name="lname">
+                    <label for="email">E-mail: <b style="color: red">*</b></label>
+                    <input type="text" id="email" name="email">
 
-                    <label for="fname">Empresa:</label>
-                    <input type="text" id="fname" name="fname">
+                    <label for="empresa">Empresa: <b style="color: red">*</b></label>
+                    <input type="text" id="empresa" name="empresa">
 
-                    <label for="lname">Telefone:</label>
-                    <input type="text" id="lname" name="lname">
+                    <label for="telefone">Telefone: <b style="color: red">*</b></label>
+                    <input type="text" id="telefone" name="telefone">
 
-                    <label for="lname">Mensagem:</label>
-                    <textarea name="story" rows="8" cols="50"></textarea>
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea name="mensagem" rows="8" cols="50"></textarea>
 
-                    <input id="btn" type="submit" value="Enviar">
+                    <input id="btn" value="Enviar" onclick="verification()">
                 </form>
             </div>
             <div class="contato">

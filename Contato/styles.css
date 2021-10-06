@@ -11,6 +11,10 @@
   padding: 16px;
 }
 
+.error {
+  border: 1px solid red;
+}
+
 form {
   display: flex;
   flex-direction: column;
@@ -36,6 +40,7 @@ textarea {
   border-radius: 16px;
   width: 300px;
   align-self: center;
+  text-align: center;
   background: white;
   border: 2px solid #023047;
 }
@@ -52,6 +57,7 @@ textarea {
     align-items: center;
     padding: 0;
   }
+
   form {
     margin-top: 15px;
     display: flex;
@@ -60,9 +66,11 @@ textarea {
     width: 80%;
     color: #023047;
   }
+
   .contato {
     margin-bottom: 15px;
   }
+
   .formulario {
     width: 100%;
     display: flex;
@@ -70,4 +78,7 @@ textarea {
     border-top: 1px solid #023047;
     margin-top: 10px;
   }
+}
+
+@keyframes treme {
 }
