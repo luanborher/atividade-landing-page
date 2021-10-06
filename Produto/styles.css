@@ -92,3 +92,14 @@ tr {
   justify-content: center;
   align-items: center;
 }
+
+.close {
+  position: absolute;
+  z-index: 100;
+  display: flex;
+  top: 5%;
+  right: 3%;
+  font-size: 16pt;
+  font-family: cursive;
+  color: red;
+}
