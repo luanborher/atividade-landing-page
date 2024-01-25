@@ -1,6 +1,6 @@
 # ProvaAV1-HTML-CSS
 
-Início da pagina https://luanborher.github.io/ProvaAV1-HTML-CSS/home/
+Início da pagina https://luanborher.github.io/atividade-landing-page/home/
 
 Projeto desenvolvido para avaliação da faculdade utilizando Java Script, HTML5 e CSS3
 
